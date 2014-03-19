@@ -1,0 +1,18 @@
+{
+  "name": "atom-tiqav",
+  "main": "./lib/atom-tiqav",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": [
+    "atom-tiqav:search",
+    "atom-tiqav:close"
+  ],
+  "repository": "https://github.com/atom/atom-tiqav",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "tiqav.js": "~0.1.4"
+  }
+}

@@ -1,0 +1,17 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable atom-tiqav': 'atom-tiqav:search'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-tiqav'
+      'submenu': [
+        { 'label': 'Search', 'command': 'atom-tiqav:search' }
+        { 'label': 'Close', 'command': 'atom-tiqav:close' }
+      ]
+    ]
+  }
+]

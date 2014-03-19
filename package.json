@@ -7,7 +7,7 @@
     "atom-tiqav:search",
     "atom-tiqav:close"
   ],
-  "repository": "https://github.com/atom/atom-tiqav",
+  "repository": "https://github.com/yosuke-furukawa/atom-tiqav",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
